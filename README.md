@@ -20,5 +20,20 @@ A Task Scheduler Software to organize and prioritize tasks based on deadlines, i
 ## UML Class Diagram
 
 Here is the UML Class Diagram for the Task Scheduler software:
+Schedulerapp
+"-Scheduler
+-Task ListView"
+"+Start()
++UpdateTaskListView()"
 
-![UML Class Diagram](https://github.com/Kevin-Owusu/SchedulerSoftware/blob/main/UMLClassDiagramTaskSchedulerApp.png)
+Task
+"-title : String
+-dueDate : LocalDate
+-priority : int"
++toString() : String
+
+Scheduler
+-Tasks
+"+addTask()
++getTasks()"
+
