@@ -19,4 +19,4 @@ A Task Scheduler Software to organize and prioritize tasks based on deadlines, i
 
 ## UML Class Diagram
 
-https://github.com/Kevin-Owusu/Scheduler-Software/blob/main/Scheduler%20UML%20Diagram.png?raw=true
+![UML Diagram]https://github.com/Kevin-Owusu/Scheduler-Software/blob/main/Scheduler%20UML%20Diagram.png?raw=true
