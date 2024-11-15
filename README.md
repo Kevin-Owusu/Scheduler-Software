@@ -34,7 +34,7 @@ This scheduler app incorporates several data structures to enhance task organiza
 
 ## UML Class Diagram
 
-![UML Diagram](https://github.com/Kevin-Owusu/Scheduler-Software/blob/main/Updated%20UML%20Diagram.png?raw=true)
+![UML Diagram](https://github.com/Kevin-Owusu/Scheduler-Software/blob/main/UML%20Diagram.png?raw=true)
 
 ### Relationships
 
