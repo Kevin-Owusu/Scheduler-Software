@@ -4,8 +4,7 @@ import javafx.scene.control.*;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class SchedulerApp extends Application {
     private Scheduler scheduler = new Scheduler();
@@ -64,7 +63,7 @@ public class SchedulerApp extends Application {
     }
 }
 
-// Assume you have the following Task class
+// Task class
 class Task {
     private String title;
     private LocalDate dueDate;
@@ -76,21 +75,40 @@ class Task {
         this.priority = priority;
     }
 
+    public int getPriority() {
+        return priority;
+    }
+
     @Override
     public String toString() {
         return title + " (Due: " + dueDate + ", Priority: " + priority + ")";
     }
 }
 
-// Assume you have the following Scheduler class
+// Custom Linked List Implementation in Scheduler
 class Scheduler {
-    private List<Task> tasks = new ArrayList<>();
+    private Queue<Task> taskQueue = new LinkedList<>(); // Queue for task processing
+    private LinkedList<Task> tasks = new LinkedList<>(); // Linked list for task storage
+    private Map<Integer, List<Task>> priorityMap = new HashMap<>(); // Map for priority management
 
     public void addTask(Task task) {
-        tasks.add(task);
+        tasks.add(task);  // Add to linked list
+        taskQueue.offer(task); // Add to the queue
+        
+        // Add to priority map
+        priorityMap.putIfAbsent(task.getPriority(), new ArrayList<>());
+        priorityMap.get(task.getPriority()).add(task);
+    }
+
+    public Task getNextTask() {
+        return taskQueue.poll();  // Get the next task from the queue
     }
 
     public List<Task> getTasks() {
         return tasks;
+    }
+
+    public List<Task> getTasksByPriority(int priority) {
+        return priorityMap.getOrDefault(priority, new ArrayList<>()); // Get tasks by priority
     }
 }
