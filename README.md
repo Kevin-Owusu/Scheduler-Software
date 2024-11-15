@@ -36,10 +36,4 @@ This scheduler app incorporates several data structures to enhance task organiza
 
 ![UML Diagram](https://github.com/Kevin-Owusu/Scheduler-Software/blob/main/UML%20Diagram.png?raw=true)
 
-### Relationships
-
-- A **TaskManager** contains multiple Tasks (1-to-many).
-- **TaskQueue** manages urgent tasks that are processed (1-to-1 relationship).
-- A **PriorityMap** organizes tasks based on their priority level (1-to-many).
-- **User** can create and manage multiple Tasks (1-to-many)
 
