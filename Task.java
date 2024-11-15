@@ -11,24 +11,12 @@ public class Task {
         this.priority = priority;
     }
 
-    public String getTitle() {
-        return title;
-    }
-
-    public LocalDate getDueDate() {
-        return dueDate;
-    }
-
     public int getPriority() {
         return priority;
     }
 
     @Override
     public String toString() {
-        return "Task{" +
-                "title='" + title + '\'' +
-                ", dueDate=" + dueDate +
-                ", priority=" + priority +
-                '}';
+        return title + " (Due: " + dueDate + ", Priority: " + priority + ")";
     }
 }
