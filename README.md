@@ -16,6 +16,21 @@ A Task Scheduler Software to organize and prioritize tasks based on deadlines, i
 
 **Why:** This software provides an efficient, clear way to keep track of tasks by urgency and importance, ensuring nothing falls through the cracks and deadlines are met efficiently.
 .
+## Features and Data Structures
+
+This scheduler app incorporates several data structures to enhance task organization and prioritization:
+
+1. **Queue**: Used to manage tasks in a first-come, first-serve manner for tasks that need immediate processing or attention.
+2. **Custom Linked List**: Stores tasks in the order they are added, making it easy to manage and display tasks in sequence based on creation time.
+3. **Map**: Organizes tasks by priority, allowing users to retrieve tasks based on their assigned priority levels for quick access to high-priority items.
+
+### Core Functionalities
+
+- **Add Tasks**: Users can add tasks with a title, due date, and priority level.
+- **View Scheduled Tasks**: Displays all tasks, ordered by creation, with options to view tasks by priority.
+- **Priority Management**: Quickly access tasks by urgency level using priority-based filtering.
+- **Process Tasks**: The app manages tasks in a queue, making it easy to focus on tasks that need immediate attention.
+- **Save & Retrieve Tasks**: All tasks are saved for easy access and tracking, ensuring continuity in task management.
 
 ## UML Class Diagram
 
