@@ -36,4 +36,9 @@ This scheduler app incorporates several data structures to enhance task organiza
 
 ![UML Diagram](https://github.com/Kevin-Owusu/Scheduler-Software/blob/main/UML%20Diagram.png?raw=true)
 
+### Future Feature
+
+- **Notification and Alerts**: Implement reminders and notifications to alert users of upcoming due dates or overdue tasks
+- **Task Categories and Tags**: Allow users to categorize tasks by type (e.g., Work, Personal, School) and add custom tags to further organize tasks
+- **Task Progress Tracking**: Implement progress tracking for tasks, such as checklists or completion percentages, to give users insights into their task progress.
 
