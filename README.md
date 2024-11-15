@@ -1,4 +1,4 @@
-# Task Management Software
+# SchedulerApp
 
 A Task Scheduler Software to organize and prioritize tasks based on deadlines, importance, and urgency.
 
