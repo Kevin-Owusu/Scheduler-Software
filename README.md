@@ -42,3 +42,10 @@ This scheduler app incorporates several data structures to enhance task organiza
 - **Task Categories and Tags**: Allow users to categorize tasks by type (e.g., Work, Personal, School) and add custom tags to further organize tasks
 - **Task Progress Tracking**: Implement progress tracking for tasks, such as checklists or completion percentages, to give users insights into their task progress.
 
+
+  ## Updates for Part 3 – Trees, Graphs, and Hashing
+
+- **Binary Search Tree:** Efficient task storage and retrieval based on priority.
+- **Hash Table:** Quick lookup of tasks by category.
+- **Weighted Graph:** Represents task dependencies with associated weights.
+
