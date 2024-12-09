@@ -1,4 +1,4 @@
-# SchedulerApp
+# Schedura
 
 A Task Scheduler Software to organize and prioritize tasks based on deadlines, importance, and urgency.
 
@@ -36,11 +36,13 @@ This scheduler app incorporates several data structures to enhance task organiza
 
 ![UML Diagram](https://github.com/Kevin-Owusu/Scheduler-Software/blob/main/UML%20Diagram.png?raw=true)
 
-### Future Feature
+### Recent Changes
 
 - **Notification and Alerts**: Implement reminders and notifications to alert users of upcoming due dates or overdue tasks
 - **Task Categories and Tags**: Allow users to categorize tasks by type (e.g., Work, Personal, School) and add custom tags to further organize tasks
 - **Task Progress Tracking**: Implement progress tracking for tasks, such as checklists or completion percentages, to give users insights into their task progress.
+- **Task Deletion and Editing**: Allows user to delete or later edit Tasks
+- ***Rename From Schdeuling app to Schedura***
 
 
   ## Updates for Part 3 – Trees, Graphs, and Hashing
